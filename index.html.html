@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amr LAB - Patient Report</title>
+
+  <style>
+    body {
+      background: #e8f0fe;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 380px;
+      padding: 25px;
+      border-radius: 16px;
+      border-top: 6px solid #1e40af;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .logo svg {
+      width: 60px;
+      height: 60px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e3a8a;
+      font-size: 22px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .section-title {
+      color: #1d4ed8;
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 16px;
+      border-left: 4px solid #1d4ed8;
+      padding-left: 6px;
+    }
+
+    .info-box {
+      background: #f3f6ff;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 18px;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      font-size: 14px;
+      border-bottom: 1px dashed #c3c8e7;
+    }
+
+    .info-row:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- Logo -->
+    <div class="logo">
+      <!-- Lab Tube SVG -->
+      <svg viewBox="0 0 64 64">
+        <path fill="#1d4ed8" d="M22 4h20v6l-3 4v30l7 10c2 3-1 6-4 6H22c-3 0-6-3-4-6l7-10V14l-3-4V4z"/>
+        <path fill="#93c5fd" d="M27 14h10v29H27z"/>
+      </svg>
+    </div>
+
+    <h1>Amr LAB – Patient Report</h1>
+
+    <!-- Patient Info -->
+    <div class="section-title">Patient Information</div>
+    <div class="info-box">
+      <div class="info-row"><span>ID</span><span>001245</span></div>
+      <div class="info-row"><span>Name</span><span>Amr Nader</span></div>
+      <div class="info-row"><span>Age</span><span>21</span></div>
+      <div class="info-row"><span>Gender</span><span>M</span></div>
+      <div class="info-row"><span>Clinic</span><span>Clinic A</span></div>
+      <div class="info-row"><span>Doctor</span><span>Dr. MARAWAN</span></div>
+      <div class="info-row"><span>Sample Date</span><span>10/10/2025</span></div>
+      <div class="info-row"><span>Phone</span><span>01009975674</span></div>
+      <div class="info-row"><span>Email</span><span>amrnader945@gmail.com</span></div>
+    </div>
+
+    <!-- Results -->
+    <div class="section-title">Test Results</div>
+    <div class="info-box">
+      <div class="info-row"><span>ABS</span><span>13</span></div>
+      <div class="info-row"><span>CONC</span><span>155</span></div>
+      <div class="info-row"><span>TRANS</span><span>22</span></div>
+    </div>
+
+  </div>
+
+</body>
+</html>
